@@ -38,8 +38,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         cbR = (CheckBox) findViewById(R.id.checkBoxR);
         cbT = (CheckBox) findViewById(R.id.checkBoxT);
         bOk = (Button) findViewById(R.id.buttonOK);
-
-        tvKls = (TextView) findViewById(R.id.textViewKls);
+        tvHasil = (TextView) findViewById(R.id.textViewHasil;
 
         cbR.setOnCheckedChangeListener(this);
         cbT.setOnCheckedChangeListener(this);
