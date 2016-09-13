@@ -52,7 +52,15 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         });
     }
 
+    private void doClick() {
+        if (isValid()) {
+            String nama = etNama.getText().toString();
+            String email = etEmail.getText().toString();
+            String nomer = etNomer.getText().toString();
 
+
+        }
+    }
 
            /*if(rb10.isChecked())
         {
@@ -109,7 +117,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         } else {
             etNomer.setError(null);
         }
-        tvHasil.setText("Nama Anda : \n" + nama + "\nEmail : \n" + email + "\nNomer Telfon Anda : \n" + Nomer + jurusan + " \n ");
+
         return valid;
     }
 
