@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         cbT = (CheckBox) findViewById(R.id.checkBoxT);
         bOk = (Button) findViewById(R.id.buttonOK);
         tvHasil = (TextView) findViewById(R.id.textViewHasil;
+        tvKls = (TextView) findViewById(R.id.textViewKls);
 
         cbR.setOnCheckedChangeListener(this);
         cbT.setOnCheckedChangeListener(this);
@@ -51,15 +52,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         });
     }
 
-    private void doClick() {
-        if (isValid()) {
-            String nama = etNama.getText().toString();
-            String email = etEmail.getText().toString();
-            String nomer = etNomer.getText().toString();
 
-
-        }
-    }
 
            /*if(rb10.isChecked())
         {
